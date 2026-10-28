@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="robots" content="noindex, nofollow">
+  <meta http-equiv="refresh" content="0; url=https://www.smbu.edu.cn/">
+  <title>正在前往外部网站</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #18201c;
+      --muted: #5b655f;
+      --paper: #f7f5ed;
+      --panel: #fffdf6;
+      --line: #d8d6ca;
+      --accent: #d8a900;
+      --accent-ink: #17140a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      padding: 2rem;
+      color: var(--ink);
+      background:
+        linear-gradient(135deg, transparent 49.7%, var(--line) 50%, transparent 50.3%) 0 0 / 32px 32px,
+        var(--paper);
+      font-family: "Microsoft YaHei UI", "PingFang SC", sans-serif;
+    }
+
+    main {
+      width: min(100%, 40rem);
+      padding: clamp(2rem, 8vw, 4.5rem);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: 12px 12px 0 rgb(24 32 28 / 8%);
+    }
+
+    .eyebrow {
+      margin: 0 0 1rem;
+      color: var(--muted);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 8vw, 4.5rem);
+      line-height: 1.04;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 1.25rem 0 0;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 3rem;
+      margin-top: 2rem;
+      padding: 0.75rem 1.25rem;
+      border: 1px solid var(--accent-ink);
+      border-radius: 6px;
+      color: var(--accent-ink);
+      background: var(--accent);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    a:hover {
+      filter: brightness(0.95);
+    }
+
+    a:focus-visible {
+      outline: 3px solid var(--ink);
+      outline-offset: 3px;
+    }
+
+    small {
+      display: block;
+      margin-top: 1.5rem;
+      color: var(--muted);
+      font-size: 0.75rem;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 32rem) {
+      body {
+        padding: 1rem;
+      }
+
+      main {
+        padding: 2rem 1.5rem;
+        box-shadow: 6px 6px 0 rgb(24 32 28 / 8%);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">个人跳转工具</p>
+    <h1>正在前往<br>外部网站</h1>
+    <p>如果你没有主动访问此域名，请关闭页面。</p>
+    <a href="https://www.smbu.edu.cn/">继续前往外部网站</a>
+    <small>此站点仅提供跳转，与目标网站没有隶属、授权或合作关系。</small>
+  </main>
+</body>
+</html>
