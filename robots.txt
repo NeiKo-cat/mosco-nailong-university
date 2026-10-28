@@ -1,0 +1,3 @@
+# Keep this redirect hostname out of search indexes.
+User-agent: *
+Disallow: /
